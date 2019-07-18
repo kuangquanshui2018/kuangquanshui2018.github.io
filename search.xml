@@ -202,6 +202,31 @@
     </entry>
     
     
+    
+    <entry>
+      <title>python笔记(九)</title>
+      <link href="/2019/05/28/py6/"/>
+      <url>/2019/05/28/py6/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a = 0.1+0.2</span><br><span class="line">print(a)</span><br><span class="line">print(0.1+0.2 == 0.3)</span><br></pre></td></tr></table></figure><p>运行结果</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">0.30000000000000004</span><br><span class="line">False</span><br></pre></td></tr></table></figure><hr><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">b = 4j</span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure><p>运行结果<code>(3+4j)</code></p><hr><p>python变量的命名规则——<strong>大小写字母</strong>、<strong>数字</strong>、<strong>下划线</strong>、<strong>汉字</strong>组合，名称首字母不能是<strong>数字</strong></p><p>栗子：以下python变量名命名错误的是；A.2_a B.a_2 C.temp D.TURE</p><hr><p>第三方库：</p><p><strong>机器学习</strong>：TensorFlow、Theano、scikit-learn</p><p><strong><a href="https://zhuanlan.zhihu.com/p/47825412" target="_blank" rel="noopener">网络爬虫</a></strong>：request、scraps</p><p><strong>数据分析</strong>：dumpy、scipy、pandas</p><p><strong>数据可视化</strong>：matplotlip、TVTK、mayavi</p><p><strong>用户图形界面</strong>：PyQt5、wxPython、PyGTK</p><p><strong>web</strong>：Diango、Pyramid、Flask</p><p>游戏开发：pygame、panda3D、cocos2d</p><p>WeRoBot：—微信框架 </p><p>sympy：是一个符号计算的库，是一个全功能的计算机代数系统。代码简洁、易于理解，支持符号计算、高精度计算、模式匹配、绘制、解方程、微积分、组合数学、离散数学、几何学、概率与统计、物理学等领域的计算和应用</p><p>MyQR：是一个能够产生基本二维码、艺术二维码和动态效果二维码的Python第三方库</p><p>NLTK：自然语言处理库，支持多种语言，尤其对中文支持良好，可以进行预料处理、文本统计、内容理解、情感分析等多种应用</p><p>PIL:  是图像处理方面的重要第三方库，支持图像存储、处理和显示，能够处理几乎所有的图片格式，<br>可以完成对图像的缩放、剪裁、叠加以及向图像添加线条、图像和文字等操作。</p><hr><p>abs(x)：返回x(变量、整数、浮点数、复数)的绝对值【复数中只有实数有绝对值的概念，对复数取绝对值相当于取模，等于实部与虚部平方和开根号后的值】</p><p>栗子；a=3 b=4j  print(abs(a+b)) 结果为 5.0</p><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> py </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
